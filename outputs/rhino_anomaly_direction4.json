@@ -1,0 +1,99 @@
+{
+ "target_bhagwandin_cm3": 4.71,
+ "full_tight_cm3": 6.97,
+ "full_label_cm3": 6.854,
+ "tight": {
+  "slab_2mm_primary_PROXY": {
+   "min": 7.069,
+   "median": 7.207,
+   "max": 7.314,
+   "n_phases": 10
+  },
+  "slab_1mm_ladder": {
+   "min": 7.069,
+   "median": 7.172,
+   "max": 7.185,
+   "n_phases": 5
+  },
+  "slab_4mm_ladder": {
+   "min": 6.963,
+   "median": 7.298,
+   "max": 7.521,
+   "n_phases": 20
+  },
+  "cavalieri_6mm_figure_spacing": {
+   "min": 6.722,
+   "median": 6.921,
+   "max": 7.279,
+   "n_phases": 14
+  },
+  "cavalieri_2mm_sanity": {
+   "min": 6.884,
+   "median": 6.922,
+   "max": 7.069,
+   "n_phases": 5
+  },
+  "slab_2mm_thresh0.25_POSTHOC": {
+   "min": 8.005,
+   "median": 8.293,
+   "max": 8.569,
+   "n_phases": 10
+  },
+  "slab_2mm_thresh0.75_POSTHOC": {
+   "min": 5.844,
+   "median": 6.067,
+   "max": 6.368,
+   "n_phases": 10
+  }
+ },
+ "label": {
+  "slab_2mm_primary_PROXY": {
+   "min": 6.703,
+   "median": 6.758,
+   "max": 6.843,
+   "n_phases": 10
+  },
+  "slab_1mm_ladder": {
+   "min": 7.008,
+   "median": 7.056,
+   "max": 7.073,
+   "n_phases": 5
+  },
+  "slab_4mm_ladder": {
+   "min": 6.356,
+   "median": 6.465,
+   "max": 6.61,
+   "n_phases": 20
+  },
+  "cavalieri_6mm_figure_spacing": {
+   "min": 6.74,
+   "median": 6.826,
+   "max": 7.198,
+   "n_phases": 14
+  },
+  "cavalieri_2mm_sanity": {
+   "min": 6.807,
+   "median": 6.849,
+   "max": 6.919,
+   "n_phases": 5
+  },
+  "slab_2mm_thresh0.25_POSTHOC": {
+   "min": 8.668,
+   "median": 8.731,
+   "max": 8.846,
+   "n_phases": 10
+  },
+  "slab_2mm_thresh0.75_POSTHOC": {
+   "min": 5.699,
+   "median": 5.783,
+   "max": 5.817,
+   "n_phases": 10
+  }
+ },
+ "verdict_primary_proxy": {
+  "phase_median_2mm_slab_tight": 7.207,
+  "fraction_of_gap_closed_by_median": -0.105,
+  "verdict": "FAILS (against the declared 2 mm proxy)",
+  "scheme_status": "Bhagwandin et al. state no estimator; verbatim scheme NOT COMPUTABLE AS STATED. Verdict graded against the declared proxy (2 mm contiguous slabs, threshold 0.5)."
+ }
+}

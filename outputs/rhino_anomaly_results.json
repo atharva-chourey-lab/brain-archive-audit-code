@@ -1,0 +1,390 @@
+{
+ "investigation": "Rhino anomaly \u2014 five directions (PREREGISTRATION_rhino_anomaly_2026-11-17.md, commit e53edfd)",
+ "direction1_specimen_identity": {
+  "verdict": "CONFIRMED at species level; individual undocumented; distinct from the Manger-lab specimen (documented)",
+  "zenodo_record": {
+   "id": 44797,
+   "doi": "10.5281/zenodo.44797",
+   "title": "Magnetic Resonance Imaging Scan of a Black Rhinoceros (Diceros Bicornis)",
+   "creators": [
+    "Santin, Mathieu",
+    "Herbin, Marc",
+    "Toro, Roberto"
+   ],
+   "publication_date": "2016-01-15",
+   "license": "cc-by-nc-4.0",
+   "file": "MRI-n4.nii.gz",
+   "file_bytes": 9457983,
+   "file_md5_zenodo": "fca0fc0b4fd328e92e3b6f080c120e92",
+   "file_md5_local": "fca0fc0b4fd328e92e3b6f080c120e92",
+   "md5_match": true
+  },
+  "mesh_record": {
+   "id": 44795,
+   "doi": "10.5281/zenodo.44795"
+  },
+  "collection": "Vertebrate Brain Collection, Jardin des Plantes, MNHN Paris (Herbin); scanned ICM/CENIR Paris (Santin)",
+  "specimen_sex_age_id": "not stated anywhere in the chain",
+  "catalogue_mass_equivalent_g": 458.6,
+  "manger_specimen_mass_g": 531,
+  "same_individual_as_patzke_bhagwandin": "No \u2014 different collection, different documented animal (40-yr male, National Zoological Gardens Pretoria, Wits Philips 1.5T 2 mm protocol)",
+  "nifti_header_metadata": "descrip only: FreeSurfer May 25 2011; no specimen identifiers in any of the three files"
+ },
+ "direction2_whole_brain_profile": {
+  "verdict": "INSUFFICIENT (registered rule): 0 other structures carry both a label in this specimen and a same-species MRI reference (minimum 2)",
+  "labels_existing_for_specimen": [
+   "Atlas (whole-brain mask)",
+   "Hippocampus"
+  ],
+  "bhagwandin_references_without_catalogue_labels": {
+   "cerebellum_cm3": 37.73,
+   "amygdala_cm3": 3.1,
+   "ventricular_system_cm3": 9.86
+  },
+  "hipp_share_catalogue_specimen_pct": {
+   "label": 1.548,
+   "tracing": 1.575
+  },
+  "hipp_share_bhagwandin_specimen_pct": 0.919,
+  "atlas_mask_extents_cm": {
+   "LR_ax0": 11.38,
+   "AP_ax1": 14.08,
+   "SI_ax2": 6.34
+  }
+ },
+ "direction3_second_specimen": {
+  "verdict": "NONE OPENLY AVAILABLE (checked claim; search log in outputs/rhino_anomaly_investigation.md)",
+  "only_other_rhino_mris": "Bhagwandin et al. 2017 black + white rhino (Wits) \u2014 published as figures/values only, never deposited",
+  "post_2017_rhino_brain_imaging": "CT endocasts only (Iurino et al. 2020) \u2014 wrong modality",
+  "declared_limitation": "MorphoSource/OpenNeuro searched via web index, not native internal search; Zenodo settled by direct API query"
+ },
+ "direction4_bhagwandin_simulation": {
+  "target_bhagwandin_cm3": 4.71,
+  "full_tight_cm3": 6.97,
+  "full_label_cm3": 6.854,
+  "tight": {
+   "slab_2mm_primary_PROXY": {
+    "min": 7.069,
+    "median": 7.207,
+    "max": 7.314,
+    "n_phases": 10
+   },
+   "slab_1mm_ladder": {
+    "min": 7.069,
+    "median": 7.172,
+    "max": 7.185,
+    "n_phases": 5
+   },
+   "slab_4mm_ladder": {
+    "min": 6.963,
+    "median": 7.298,
+    "max": 7.521,
+    "n_phases": 20
+   },
+   "cavalieri_6mm_figure_spacing": {
+    "min": 6.722,
+    "median": 6.921,
+    "max": 7.279,
+    "n_phases": 14
+   },
+   "cavalieri_2mm_sanity": {
+    "min": 6.884,
+    "median": 6.922,
+    "max": 7.069,
+    "n_phases": 5
+   },
+   "slab_2mm_thresh0.25_POSTHOC": {
+    "min": 8.005,
+    "median": 8.293,
+    "max": 8.569,
+    "n_phases": 10
+   },
+   "slab_2mm_thresh0.75_POSTHOC": {
+    "min": 5.844,
+    "median": 6.067,
+    "max": 6.368,
+    "n_phases": 10
+   }
+  },
+  "label": {
+   "slab_2mm_primary_PROXY": {
+    "min": 6.703,
+    "median": 6.758,
+    "max": 6.843,
+    "n_phases": 10
+   },
+   "slab_1mm_ladder": {
+    "min": 7.008,
+    "median": 7.056,
+    "max": 7.073,
+    "n_phases": 5
+   },
+   "slab_4mm_ladder": {
+    "min": 6.356,
+    "median": 6.465,
+    "max": 6.61,
+    "n_phases": 20
+   },
+   "cavalieri_6mm_figure_spacing": {
+    "min": 6.74,
+    "median": 6.826,
+    "max": 7.198,
+    "n_phases": 14
+   },
+   "cavalieri_2mm_sanity": {
+    "min": 6.807,
+    "median": 6.849,
+    "max": 6.919,
+    "n_phases": 5
+   },
+   "slab_2mm_thresh0.25_POSTHOC": {
+    "min": 8.668,
+    "median": 8.731,
+    "max": 8.846,
+    "n_phases": 10
+   },
+   "slab_2mm_thresh0.75_POSTHOC": {
+    "min": 5.699,
+    "median": 5.783,
+    "max": 5.817,
+    "n_phases": 10
+   }
+  },
+  "verdict_primary_proxy": {
+   "phase_median_2mm_slab_tight": 7.207,
+   "fraction_of_gap_closed_by_median": -0.105,
+   "verdict": "FAILS (against the declared 2 mm proxy)",
+   "scheme_status": "Bhagwandin et al. state no estimator; verbatim scheme NOT COMPUTABLE AS STATED. Verdict graded against the declared proxy (2 mm contiguous slabs, threshold 0.5)."
+  }
+ },
+ "direction5_line_robustness": {
+  "fitset_check": {
+   "slope_refit": 0.8467,
+   "intercept_refit": -1.6609,
+   "registered_slope": 0.8467,
+   "registered_intercept": -1.6609,
+   "r": 0.93
+  },
+  "rhino_vs_patzke_model": {
+   "at_Vb_442.65": {
+    "patzke_pred": 4.661,
+    "label_6.854_resid_pct": 47.0,
+    "tracing_6.97_resid_pct": 49.5
+   },
+   "compilation_row_at_Vb_512.55": {
+    "patzke_pred": 5.011,
+    "observed_7.48_resid_pct": 49.3
+   },
+   "bhagwandin_4.71_at_Vb_512.55_resid_pct": -6.0
+  },
+  "loo_sensitivity_EXPLORATORY": {
+   "n": 7,
+   "slope": 0.7084,
+   "intercept": -1.453,
+   "r": 0.919,
+   "pred_at_442.65": 2.64,
+   "label_resid_pct": 159.6,
+   "tracing_resid_pct": 164.0
+  },
+  "direct_label_resid_rank": [
+   {
+    "rank": 1,
+    "species": "Sloth_bear",
+    "resid_reg_pct": 167.2,
+    "kind": "artifact_flagged_label"
+   },
+   {
+    "rank": 2,
+    "species": "Black_rhinoceros",
+    "resid_reg_pct": 80.5,
+    "kind": "fit_member"
+   },
+   {
+    "rank": 3,
+    "species": "Ferret",
+    "resid_reg_pct": 70.7,
+    "kind": "fit_member"
+   },
+   {
+    "rank": 4,
+    "species": "Leopard",
+    "resid_reg_pct": 10.1,
+    "kind": "fit_member"
+   },
+   {
+    "rank": 5,
+    "species": "Lion",
+    "resid_reg_pct": 9.9,
+    "kind": "fit_member"
+   },
+   {
+    "rank": 6,
+    "species": "Cheetah",
+    "resid_reg_pct": 9.2,
+    "kind": "fit_member"
+   },
+   {
+    "rank": 7,
+    "species": "Cat",
+    "resid_reg_pct": -26.2,
+    "kind": "fit_member"
+   },
+   {
+    "rank": 8,
+    "species": "Giant_panda",
+    "resid_reg_pct": -40.4,
+    "kind": "fit_member"
+   },
+   {
+    "rank": 9,
+    "species": "Giraffe",
+    "resid_reg_pct": -42.1,
+    "kind": "artifact_flagged_label"
+   },
+   {
+    "rank": 10,
+    "species": "Red_kangaroo",
+    "resid_reg_pct": -44.2,
+    "kind": "fit_member"
+   }
+  ],
+  "share_rank_all14": [
+   {
+    "rank": 1,
+    "species": "Ferret",
+    "share_pct": 2.822,
+    "data_class": "catalogue_label",
+    "kind": "fit_member"
+   },
+   {
+    "rank": 2,
+    "species": "Sloth_bear",
+    "share_pct": 2.714,
+    "data_class": "catalogue_label",
+    "kind": "artifact_flagged_label"
+   },
+   {
+    "rank": 3,
+    "species": "Black_rhinoceros",
+    "share_pct": 1.548,
+    "data_class": "catalogue_label",
+    "kind": "fit_member"
+   },
+   {
+    "rank": 4,
+    "species": "Gray_wolf",
+    "share_pct": 1.286,
+    "data_class": "model_estimated_propagation",
+    "kind": "model_estimated"
+   },
+   {
+    "rank": 5,
+    "species": "Cheetah",
+    "share_pct": 1.248,
+    "data_class": "catalogue_label",
+    "kind": "fit_member"
+   },
+   {
+    "rank": 6,
+    "species": "Leopard",
+    "share_pct": 1.188,
+    "data_class": "catalogue_label",
+    "kind": "fit_member"
+   },
+   {
+    "rank": 7,
+    "species": "Lion",
+    "share_pct": 1.075,
+    "data_class": "catalogue_label",
+    "kind": "fit_member"
+   },
+   {
+    "rank": 8,
+    "species": "Cat",
+    "share_pct": 0.853,
+    "data_class": "catalogue_label",
+    "kind": "fit_member"
+   },
+   {
+    "rank": 9,
+    "species": "Red_kangaroo",
+    "share_pct": 0.734,
+    "data_class": "catalogue_label",
+    "kind": "fit_member"
+   },
+   {
+    "rank": 10,
+    "species": "Giant_panda",
+    "share_pct": 0.586,
+    "data_class": "catalogue_label",
+    "kind": "fit_member"
+   },
+   {
+    "rank": 11,
+    "species": "Chimpanzee",
+    "share_pct": 0.54,
+    "data_class": "model_estimated_propagation",
+    "kind": "model_estimated"
+   },
+   {
+    "rank": 12,
+    "species": "Human",
+    "share_pct": 0.525,
+    "data_class": "model_estimated_propagation",
+    "kind": "model_estimated"
+   },
+   {
+    "rank": 13,
+    "species": "Gorilla",
+    "share_pct": 0.507,
+    "data_class": "model_estimated_propagation",
+    "kind": "model_estimated"
+   },
+   {
+    "rank": 14,
+    "species": "Giraffe",
+    "share_pct": 0.472,
+    "data_class": "catalogue_label",
+    "kind": "artifact_flagged_label"
+   }
+  ],
+  "share_rank_large_brain_direct_labels": [
+   {
+    "rank": 1,
+    "species": "Sloth_bear",
+    "share_pct": 2.714,
+    "brain_cm3": 147.31,
+    "kind": "artifact_flagged_label"
+   },
+   {
+    "rank": 2,
+    "species": "Black_rhinoceros",
+    "share_pct": 1.548,
+    "brain_cm3": 442.65,
+    "kind": "fit_member"
+   },
+   {
+    "rank": 3,
+    "species": "Lion",
+    "share_pct": 1.075,
+    "brain_cm3": 188.08,
+    "kind": "fit_member"
+   },
+   {
+    "rank": 4,
+    "species": "Giant_panda",
+    "share_pct": 0.586,
+    "brain_cm3": 181.71,
+    "kind": "fit_member"
+   },
+   {
+    "rank": 5,
+    "species": "Giraffe",
+    "share_pct": 0.472,
+    "brain_cm3": 618.46,
+    "kind": "artifact_flagged_label"
+   }
+  ]
+ },
+ "restated_anomaly": "Largest positive residual of any forensically valid MRI label (+80.5% label / +83.5% tracing vs registered line, in-sample caveat); largest hippocampal share of any valid large-brain MRI label (1.548%); +47.0/+49.5% vs Patzke saturating model at 442.65, with Patzke compilation value itself +49.3% vs the same model at 512.55; Bhagwandin 4.71 at -6.0% vs the model. LOO sensitivity (exploratory): residual grows to +159.6/+164.0% without the rhino in the fit."
+}

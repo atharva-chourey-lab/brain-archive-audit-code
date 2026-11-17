@@ -1,0 +1,20 @@
+{
+ "voxel_cm3": 9.1125e-05,
+ "span_ax1": [
+  142,
+  190
+ ],
+ "components_total": 155,
+ "dust_vox": 5321,
+ "dust_frac": 0.06501313458366424,
+ "L_ax0_lt_mid_cm3": 2.406702375,
+ "R_ax0_ge_mid_cm3": 4.5665471250000005,
+ "total_cm3": 6.9732495000000005,
+ "erode1_cm3": 5.00549625,
+ "dilate1_cm3": 8.499411,
+ "label_cm3": 6.854331375,
+ "dice_vs_label": 0.6666798468463125,
+ "residual_vs_line_pct": 83.50656578947371,
+ "minus1vox_pct": -28.218598086874714,
+ "plus1vox_pct": 21.885944278919034
+}

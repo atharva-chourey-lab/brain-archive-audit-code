@@ -1,0 +1,30 @@
+{
+ "voxel_cm3": 2.7180299999999995e-05,
+ "span_ax1": [
+  126,
+  194
+ ],
+ "components_total": 21,
+ "component_sizes_vox": [
+  67390,
+  59195,
+  120,
+  11,
+  4,
+  4
+ ],
+ "dust_vox": 159,
+ "A_ax0_lt_mid_cm3": 1.8316804169999996,
+ "B_ax0_ge_mid_cm3": 1.6089378584999996,
+ "total_cm3": 3.4406182754999994,
+ "dust_frac": 0.0012544972543078962,
+ "LR_ratio_B_over_A": 0.8783944205371716,
+ "erode1_cm3": 2.5859065616999994,
+ "dilate1_cm3": 3.9443507753999993,
+ "minus1vox_pct": -24.841805901173128,
+ "plus1vox_pct": 14.640755223762689,
+ "line_pred_own_denom_cm3": 4.320315672883561,
+ "residual_own_denom_pct": -20.361877788351855,
+ "line_pred_species_typical_cm3": 10.53348641232167,
+ "residual_species_typical_pct": -67.33637714218442
+}

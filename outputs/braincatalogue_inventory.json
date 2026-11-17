@@ -1,0 +1,541 @@
+{
+ "Baboon": {
+  "brain": "MRI.nii.gz",
+  "atlas": [
+   "Telencephalon.nii.gz",
+   "Hippocampus.nii.gz",
+   "Striatum.nii.gz"
+  ],
+  "dim": [
+   301,
+   347,
+   220
+  ],
+  "pixdim": null
+ },
+ "Black_rhinoceros": {
+  "brain": "MRI-n4.nii.gz",
+  "atlas": [
+   "Hippocampus.nii.gz",
+   "Atlas.nii.gz"
+  ],
+  "dim": [
+   265,
+   328,
+   143
+  ],
+  "pixdim": [
+   0.45,
+   0.45,
+   0.45
+  ]
+ },
+ "Blackbuck": {
+  "brain": "MRI-n4.nii.gz",
+  "atlas": [
+   "Hippocampus.nii.gz",
+   "Atlas.nii.gz"
+  ],
+  "dim": [
+   180,
+   240,
+   130
+  ],
+  "pixdim": null
+ },
+ "Bottlenose_dolphin": {
+  "brain": "MRI-n4.nii.gz",
+  "atlas": [
+   "Atlas.nii.gz",
+   "Hippocampus.nii.gz",
+   "Cerebellum.nii.gz",
+   "Corpus_callosum.nii.gz"
+  ],
+  "dim": [
+   447,
+   380,
+   224
+  ],
+  "pixdim": null
+ },
+ "Cat": {
+  "brain": "MRI-n4.nii.gz",
+  "atlas": [
+   "Telencephalon.nii.gz",
+   "Hippocampus.nii.gz"
+  ],
+  "dim": [
+   219,
+   294,
+   182
+  ],
+  "pixdim": [
+   0.2,
+   0.2,
+   0.2
+  ]
+ },
+ "Cheetah": {
+  "brain": "MRI.nii.gz",
+  "atlas": [
+   "Telencephalon.nii.gz",
+   "Hippocampus.nii.gz"
+  ],
+  "dim": [
+   241,
+   371,
+   197
+  ],
+  "pixdim": null
+ },
+ "Chimpanzee": {
+  "brain": "MRI-n4.nii.gz",
+  "atlas": [
+   "Atlas.nii.gz",
+   "Hippocampus.nii.gz",
+   "Striatum.nii.gz",
+   "Cerebellum.nii.gz"
+  ],
+  "dim": [
+   160,
+   180,
+   145
+  ],
+  "pixdim": null
+ },
+ "Crab-eating_macaque": {
+  "brain": "MRI.nii.gz",
+  "atlas": [
+   "Telencephalon.nii.gz",
+   "Hippocampus.nii.gz",
+   "Striatum.nii.gz"
+  ],
+  "dim": [
+   321,
+   405,
+   254
+  ],
+  "pixdim": null
+ },
+ "Demidoff's_dwarf_Galago": {
+  "brain": "MRI.nii.gz",
+  "atlas": [
+   "Cerebrum.nii.gz",
+   "Hippocampus.nii.gz"
+  ],
+  "dim": [
+   82,
+   105,
+   66
+  ],
+  "pixdim": [
+   0.25,
+   0.25,
+   0.25
+  ]
+ },
+ "Ferret": {
+  "brain": "MRI-n4.nii.gz",
+  "atlas": [
+   "Neocortex.nii.gz",
+   "Hippocampus.nii.gz",
+   "Cerebellum.nii.gz"
+  ],
+  "dim": [
+   200,
+   384,
+   160
+  ],
+  "pixdim": [
+   0.12,
+   0.12,
+   0.12
+  ]
+ },
+ "Giant_panda": {
+  "brain": "MRI.nii.gz",
+  "atlas": [
+   "Telencephalon.nii.gz",
+   "Hippocampus.nii.gz"
+  ],
+  "dim": [
+   387,
+   442,
+   234
+  ],
+  "pixdim": null
+ },
+ "Gibbon": {
+  "brain": "gibbon_buddy_reoriented_N4_max.nii.gz",
+  "atlas": [
+   "Cerebrum.nii.gz"
+  ],
+  "dim": [
+   118,
+   147,
+   94
+  ],
+  "pixdim": null
+ },
+ "Giraffe": {
+  "brain": "MRI.nii.gz",
+  "atlas": [
+   "Telencephalon.nii.gz",
+   "Hippocampus.nii.gz"
+  ],
+  "dim": [
+   352,
+   476,
+   251
+  ],
+  "pixdim": null
+ },
+ "Gorilla": {
+  "brain": "MRI-n4.nii.gz",
+  "atlas": [
+   "Atlas.nii.gz",
+   "Cerebrum.nii.gz",
+   "Striatum.nii.gz",
+   "Hippocampus.nii.gz"
+  ],
+  "dim": [
+   160,
+   224,
+   160
+  ],
+  "pixdim": null
+ },
+ "Gray_wolf": {
+  "brain": "MRI.nii.gz",
+  "atlas": [
+   "Telencephalon.nii.gz",
+   "Hippocampus.nii.gz"
+  ],
+  "dim": [
+   231,
+   275,
+   177
+  ],
+  "pixdim": null
+ },
+ "Grey-cheeked_mangabey": {
+  "brain": "MRI.nii.gz",
+  "atlas": [
+   "Telencephalon.nii.gz",
+   "Hippocampus.nii.gz"
+  ],
+  "dim": [
+   213,
+   186,
+   148
+  ],
+  "pixdim": [
+   0.3,
+   0.3,
+   0.3
+  ]
+ },
+ "House_mouse": {
+  "brain": "Mouse.nii.gz",
+  "atlas": [
+   "Telencephalon.nii.gz"
+  ],
+  "dim": [
+   420,
+   548,
+   282
+  ],
+  "pixdim": [
+   0.03,
+   0.03,
+   0.03
+  ]
+ },
+ "Human": {
+  "brain": "MRI-n4.nii.gz",
+  "atlas": [
+   "Atlas.nii.gz",
+   "Hippocampus.nii.gz",
+   "Striatum.nii.gz"
+  ],
+  "dim": [
+   160,
+   250,
+   170
+  ],
+  "pixdim": null
+ },
+ "La_Plata_dolphin": {
+  "brain": "MRI.nii.gz",
+  "atlas": [
+   "Telencephalon.nii.gz",
+   "Hippocampus.nii.gz"
+  ],
+  "dim": [
+   316,
+   321,
+   160
+  ],
+  "pixdim": null
+ },
+ "Leopard": {
+  "brain": "MRI-n4.nii.gz",
+  "atlas": [
+   "Hippocampus.nii.gz",
+   "Atlas.nii.gz"
+  ],
+  "dim": [
+   200,
+   280,
+   160
+  ],
+  "pixdim": null
+ },
+ "Lion": {
+  "brain": "MRI-n4.nii.gz",
+  "atlas": [
+   "Hippocampus.nii.gz",
+   "Telencephalon.nii.gz"
+  ],
+  "dim": [
+   276,
+   334,
+   209
+  ],
+  "pixdim": null
+ },
+ "Night_monkey": {
+  "brain": "MRI.nii.gz",
+  "atlas": [
+   "Telencephalon.nii.gz",
+   "Cerebrum.nii.gz",
+   "Hippocampus.nii.gz"
+  ],
+  "dim": [
+   179,
+   221,
+   125
+  ],
+  "pixdim": [
+   0.25,
+   0.25,
+   0.25
+  ]
+ },
+ "Nile_crocodile": {
+  "brain": "MRI.nii.gz",
+  "atlas": [
+   "Telencephalon.nii.gz"
+  ],
+  "dim": [
+   109,
+   341,
+   80
+  ],
+  "pixdim": null
+ },
+ "Nursehound": {
+  "brain": "MRI.nii.gz",
+  "atlas": [
+   "Telencephalon.nii.gz"
+  ],
+  "dim": [
+   211,
+   480,
+   141
+  ],
+  "pixdim": null
+ },
+ "Okapi": {
+  "brain": "MRI.nii.gz",
+  "atlas": [
+   "Telencephalon.nii.gz",
+   "Hippocampus.nii.gz"
+  ],
+  "dim": [
+   303,
+   418,
+   233
+  ],
+  "pixdim": null
+ },
+ "Orangutan": {
+  "brain": "MRI-n4.nii.gz",
+  "atlas": [
+   "Atlas.nii.gz",
+   "Hippocampus.nii.gz"
+  ],
+  "dim": [
+   210,
+   240,
+   210
+  ],
+  "pixdim": null
+ },
+ "Ostrich": {
+  "brain": "MRI.nii.gz",
+  "atlas": [
+   "Telencephalon.nii.gz",
+   "Hippocampus.nii.gz"
+  ],
+  "dim": [
+   201,
+   258,
+   164
+  ],
+  "pixdim": null
+ },
+ "Plains_zebra": {
+  "brain": "MRI.nii.gz",
+  "atlas": [
+   "Telencephalon.nii.gz"
+  ],
+  "dim": [
+   243,
+   313,
+   227
+  ],
+  "pixdim": [
+   0.4,
+   0.4,
+   0.4
+  ]
+ },
+ "Platypus": {
+  "brain": "MRI.nii.gz",
+  "atlas": [
+   "Telencephalon.nii.gz"
+  ],
+  "dim": [
+   187,
+   432,
+   192
+  ],
+  "pixdim": [
+   0.25,
+   0.25,
+   0.25
+  ]
+ },
+ "Red-necked_wallaby": {
+  "brain": "MRI-n4.nii.gz",
+  "atlas": [
+   "Atlas.nii.gz",
+   "Hippocampus.nii.gz"
+  ],
+  "dim": [
+   69,
+   189,
+   90
+  ],
+  "pixdim": null
+ },
+ "Red_kangaroo": {
+  "brain": "MRI-n4.nii.gz",
+  "atlas": [
+   "Hippocampus.nii.gz",
+   "Atlas.nii.gz"
+  ],
+  "dim": [
+   110,
+   220,
+   120
+  ],
+  "pixdim": null
+ },
+ "Red_squirrel": {
+  "brain": "MRI-n4.nii.gz",
+  "atlas": [
+   "Hippocampus.nii.gz",
+   "Atlas.nii.gz"
+  ],
+  "dim": [
+   150,
+   163,
+   105
+  ],
+  "pixdim": null
+ },
+ "Rhesus_macaque": {
+  "brain": "MRI.nii.gz",
+  "atlas": [
+   "Telencephalon.nii.gz",
+   "Cerebrum.nii.gz",
+   "Hippocampus.nii.gz",
+   "Striatum.nii.gz",
+   "Cerebellum.nii.gz"
+  ],
+  "dim": [
+   183,
+   235,
+   148
+  ],
+  "pixdim": [
+   0.25,
+   0.25,
+   0.25
+  ]
+ },
+ "Sloth_bear": {
+  "brain": "MRI-n4.nii.gz",
+  "atlas": [
+   "Hippocampus.nii.gz",
+   "Atlas.nii.gz"
+  ],
+  "dim": [
+   230,
+   300,
+   270
+  ],
+  "pixdim": null
+ },
+ "Slow_loris": {
+  "brain": "MRI-n4.nii.gz",
+  "atlas": [
+   "Atlas.nii.gz",
+   "Hippocampus.nii.gz"
+  ],
+  "dim": [
+   138,
+   140,
+   100
+  ],
+  "pixdim": null
+ },
+ "Thylacine": {
+  "brain": "MRI.nii.gz",
+  "atlas": [
+   "Cerebrum.nii.gz",
+   "Hippocampus.nii.gz"
+  ],
+  "dim": [
+   550,
+   551,
+   390
+  ],
+  "pixdim": [
+   0.075,
+   0.075,
+   0.075
+  ]
+ },
+ "White-headed_capuchin": {
+  "brain": "MRI.nii.gz",
+  "atlas": [
+   "Cerebrum.nii.gz",
+   "Neocortex.nii.gz",
+   "Telencephalon.nii.gz",
+   "Hippocampus.nii.gz"
+  ],
+  "dim": [
+   160,
+   223,
+   142
+  ],
+  "pixdim": [
+   0.283333,
+   0.283333,
+   0.28
+  ]
+ }
+}

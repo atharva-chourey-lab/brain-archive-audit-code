@@ -1,0 +1,229 @@
+{
+ "fitset_check": {
+  "slope_refit": 0.8467,
+  "intercept_refit": -1.6609,
+  "registered_slope": 0.8467,
+  "registered_intercept": -1.6609,
+  "r": 0.93
+ },
+ "rhino_vs_patzke_model": {
+  "at_Vb_442.65": {
+   "patzke_pred": 4.661,
+   "label_6.854_resid_pct": 47.0,
+   "tracing_6.97_resid_pct": 49.5
+  },
+  "compilation_row_at_Vb_512.55": {
+   "patzke_pred": 5.011,
+   "observed_7.48_resid_pct": 49.3
+  },
+  "bhagwandin_4.71_at_Vb_512.55_resid_pct": -6.0
+ },
+ "loo_sensitivity_EXPLORATORY": {
+  "n": 7,
+  "slope": 0.7084,
+  "intercept": -1.453,
+  "r": 0.919,
+  "pred_at_442.65": 2.64,
+  "label_resid_pct": 159.6,
+  "tracing_resid_pct": 164.0
+ },
+ "direct_label_resid_rank": [
+  {
+   "rank": 1,
+   "species": "Sloth_bear",
+   "resid_reg_pct": 167.2,
+   "kind": "artifact_flagged_label"
+  },
+  {
+   "rank": 2,
+   "species": "Black_rhinoceros",
+   "resid_reg_pct": 80.5,
+   "kind": "fit_member"
+  },
+  {
+   "rank": 3,
+   "species": "Ferret",
+   "resid_reg_pct": 70.7,
+   "kind": "fit_member"
+  },
+  {
+   "rank": 4,
+   "species": "Leopard",
+   "resid_reg_pct": 10.1,
+   "kind": "fit_member"
+  },
+  {
+   "rank": 5,
+   "species": "Lion",
+   "resid_reg_pct": 9.9,
+   "kind": "fit_member"
+  },
+  {
+   "rank": 6,
+   "species": "Cheetah",
+   "resid_reg_pct": 9.2,
+   "kind": "fit_member"
+  },
+  {
+   "rank": 7,
+   "species": "Cat",
+   "resid_reg_pct": -26.2,
+   "kind": "fit_member"
+  },
+  {
+   "rank": 8,
+   "species": "Giant_panda",
+   "resid_reg_pct": -40.4,
+   "kind": "fit_member"
+  },
+  {
+   "rank": 9,
+   "species": "Giraffe",
+   "resid_reg_pct": -42.1,
+   "kind": "artifact_flagged_label"
+  },
+  {
+   "rank": 10,
+   "species": "Red_kangaroo",
+   "resid_reg_pct": -44.2,
+   "kind": "fit_member"
+  }
+ ],
+ "share_rank_all14": [
+  {
+   "rank": 1,
+   "species": "Ferret",
+   "share_pct": 2.822,
+   "data_class": "catalogue_label",
+   "kind": "fit_member"
+  },
+  {
+   "rank": 2,
+   "species": "Sloth_bear",
+   "share_pct": 2.714,
+   "data_class": "catalogue_label",
+   "kind": "artifact_flagged_label"
+  },
+  {
+   "rank": 3,
+   "species": "Black_rhinoceros",
+   "share_pct": 1.548,
+   "data_class": "catalogue_label",
+   "kind": "fit_member"
+  },
+  {
+   "rank": 4,
+   "species": "Gray_wolf",
+   "share_pct": 1.286,
+   "data_class": "model_estimated_propagation",
+   "kind": "model_estimated"
+  },
+  {
+   "rank": 5,
+   "species": "Cheetah",
+   "share_pct": 1.248,
+   "data_class": "catalogue_label",
+   "kind": "fit_member"
+  },
+  {
+   "rank": 6,
+   "species": "Leopard",
+   "share_pct": 1.188,
+   "data_class": "catalogue_label",
+   "kind": "fit_member"
+  },
+  {
+   "rank": 7,
+   "species": "Lion",
+   "share_pct": 1.075,
+   "data_class": "catalogue_label",
+   "kind": "fit_member"
+  },
+  {
+   "rank": 8,
+   "species": "Cat",
+   "share_pct": 0.853,
+   "data_class": "catalogue_label",
+   "kind": "fit_member"
+  },
+  {
+   "rank": 9,
+   "species": "Red_kangaroo",
+   "share_pct": 0.734,
+   "data_class": "catalogue_label",
+   "kind": "fit_member"
+  },
+  {
+   "rank": 10,
+   "species": "Giant_panda",
+   "share_pct": 0.586,
+   "data_class": "catalogue_label",
+   "kind": "fit_member"
+  },
+  {
+   "rank": 11,
+   "species": "Chimpanzee",
+   "share_pct": 0.54,
+   "data_class": "model_estimated_propagation",
+   "kind": "model_estimated"
+  },
+  {
+   "rank": 12,
+   "species": "Human",
+   "share_pct": 0.525,
+   "data_class": "model_estimated_propagation",
+   "kind": "model_estimated"
+  },
+  {
+   "rank": 13,
+   "species": "Gorilla",
+   "share_pct": 0.507,
+   "data_class": "model_estimated_propagation",
+   "kind": "model_estimated"
+  },
+  {
+   "rank": 14,
+   "species": "Giraffe",
+   "share_pct": 0.472,
+   "data_class": "catalogue_label",
+   "kind": "artifact_flagged_label"
+  }
+ ],
+ "share_rank_large_brain_direct_labels": [
+  {
+   "rank": 1,
+   "species": "Sloth_bear",
+   "share_pct": 2.714,
+   "brain_cm3": 147.31,
+   "kind": "artifact_flagged_label"
+  },
+  {
+   "rank": 2,
+   "species": "Black_rhinoceros",
+   "share_pct": 1.548,
+   "brain_cm3": 442.65,
+   "kind": "fit_member"
+  },
+  {
+   "rank": 3,
+   "species": "Lion",
+   "share_pct": 1.075,
+   "brain_cm3": 188.08,
+   "kind": "fit_member"
+  },
+  {
+   "rank": 4,
+   "species": "Giant_panda",
+   "share_pct": 0.586,
+   "brain_cm3": 181.71,
+   "kind": "fit_member"
+  },
+  {
+   "rank": 5,
+   "species": "Giraffe",
+   "share_pct": 0.472,
+   "brain_cm3": 618.46,
+   "kind": "artifact_flagged_label"
+  }
+ ]
+}

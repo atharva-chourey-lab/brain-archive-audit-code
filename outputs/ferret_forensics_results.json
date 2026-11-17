@@ -1,0 +1,23 @@
+{
+ "label_cm3": 0.17324408462061547,
+ "label_vox": 100257,
+ "otsu_band_cm3": {
+  "x0.8": 6.2712502760784705,
+  "x0.9": 6.190639081373345,
+  "x1.0": 6.1108227666160095,
+  "x1.1": 5.971984887735453
+ },
+ "residual_pct_across_band": {
+  "x0.8": 67.7,
+  "x0.9": 69.5,
+  "x1.0": 71.4,
+  "x1.1": 74.8
+ },
+ "zero_residual_brain_cm3": 11.545926436542354,
+ "line_pred_at_6.13": 0.10135444124532623,
+ "patzke_pred_at_6.13": 0.333092415842537,
+ "ferret_vs_patzke_pct": -48.0,
+ "share_pct_at_6.13": 2.83,
+ "weasel_line_resid_pct": 315.9,
+ "weasel_patzke_resid_pct": 19.6
+}
